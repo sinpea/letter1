@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import AudioMan from "./audioplayer";
 import Container from "./container";
 import BackVid from "./backgroundvid";

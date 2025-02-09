@@ -10,7 +10,7 @@ export default function Container(){
     const textArr = ["Click or Press Enter to Proceed","Well it's been 2 years since we started dating...","Time has flown by so fast, it makes me want even more; the time I have with you...","I am not one to be verbose, neither am I one to be apt...","Your beauty stops me in my tracks whenever I think of you","I <3 u I <3 u I <3 u"];
     const [dispText,setText] = useState(textArr[0]);
     //window.addEventListener("keypress",(e)=>{console.log(e.key);if(e.key=="Enter"){handleClick()}})
-       
+    console.log(isPlay);
     useEffect(()=>{
         
         async function handleClick(e:KeyboardEvent){
