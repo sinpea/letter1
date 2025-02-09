@@ -30,7 +30,7 @@ export default function AudioMan(){
                                 audio.current?.play();
                             }
                             catch(e:any){
-
+                                console.error(e);
                             }
                             
                             setPlay(true);
