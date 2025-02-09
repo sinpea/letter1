@@ -23,7 +23,7 @@ export default function AudioMan(){
             };
 
             async function handleClick(e:MouseEvent){
-                
+                    console.log(e);
                     if(!play){
                         if(loaded){
                             audio.current.play();
